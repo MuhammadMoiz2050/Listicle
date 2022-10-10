@@ -1,0 +1,107 @@
+    header > h1{
+      text-align: center;
+      font-family:"Roboto Slab",serif;
+      font: size 36px;
+      font-weight: normal;
+      color: white;
+     /* padding-top: 250px;
+      padding-left: 400px;*/
+      position: relative;
+      bottom:60px;
+    }
+    header{
+      height:500px;
+      background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("images/header.jpg");
+      background-size: cover;
+    }
+    .center {
+
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  }
+  .profile{
+   font-family:"'Source Sans Pro",sans-serif;
+   font-size: 18px;
+   text-align: center;
+   color: rgb(51,51,51);
+  }
+#vrk-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  border-color: rgb(12, 12, 12);
+  border-width: 10px;
+  position:relative;
+  bottom:75px;
+  left:0px;
+
+}
+.position{
+  position:relative;
+  bottom:75px;
+}
+ .aaa{
+  /*bottom:90px;*/
+  border-bottom: 2px solid #e6e6e6;
+  padding-bottom: 5px;
+ }
+
+.headers{
+      position: relative;
+      max-width: 780px;
+      left:259px;
+      font-family:"Roboto Slab",serif;
+      font-size: 36px;
+      font-weight: bold;
+      color:rgb(51, 51, 51);
+}
+.col{
+  position: relative;
+  max-width: 780px;
+  left:223px;
+  font-family:"Roboto Slab",serif;
+      font-size: 36px;
+      font-weight: bold;
+      color:rgba(0, 0, 0, 0.25);
+}
+.paras{
+  position: relative;
+  max-width: 780px;
+  left:293px;
+  font-family:"Source Sans Pro",sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: medium;
+  color:rgb(51, 51, 51);
+}
+.paras1{
+  
+  max-width: 780px;
+
+  font-family:"Source Sans Pro",sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: medium;
+  color:rgb(51, 51, 51);
+}
+a:hover{
+  text-decoration: underline;
+  background-color:aquamarine;
+}
+a{
+  text-decoration: none;
+  position: relative;
+  max-width: 780px;
+  left:293px;
+}
+img.pos{
+  position: relative;
+  max-width: 780px;
+  left:293px;
+  object-fit: fill;
+}
